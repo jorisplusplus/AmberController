@@ -2708,6 +2708,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-WROOM-32E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4891,6 +4974,12 @@
 		(uuid "d30bdadd-4746-429b-9c5f-b15c9d8506c7")
 	)
 	(junction
+		(at 53.975 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e33df5-40e5-4e37-b682-41ff72ec6e23")
+	)
+	(junction
 		(at 242.57 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5066,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 71.12) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcd586f-f972-4ecb-89ee-0fb71f18efaa")
+	)
+	(wire
+		(pts
 			(xy 200.66 22.86) (xy 200.66 29.21)
 		)
 		(stroke
@@ -5133,16 +5232,6 @@
 			(type default)
 		)
 		(uuid "173e3293-c710-4655-b417-bf8ca161fcdf")
-	)
-	(wire
-		(pts
-			(xy 185.42 124.46) (xy 208.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17695d3f-9f4f-4bb3-821d-d348d7efbe06")
 	)
 	(wire
 		(pts
@@ -5226,16 +5315,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 156.21 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1001ed-e170-40c7-bc12-92097177cd4c")
-	)
-	(wire
-		(pts
 			(xy 199.39 111.76) (xy 199.39 116.84)
 		)
 		(stroke
@@ -5263,6 +5342,16 @@
 			(type default)
 		)
 		(uuid "21fd5aab-c1e8-4ab8-92d1-ed92e457259f")
+	)
+	(wire
+		(pts
+			(xy 53.975 60.325) (xy 53.975 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22840ed8-a83d-4669-b585-0a7ef21dc232")
 	)
 	(wire
 		(pts
@@ -5406,6 +5495,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.975 71.12) (xy 53.975 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34db42c3-7ca7-40ca-9369-aae354d7d9dd")
+	)
+	(wire
+		(pts
 			(xy 43.18 39.37) (xy 45.72 39.37)
 		)
 		(stroke
@@ -5453,16 +5552,6 @@
 			(type default)
 		)
 		(uuid "3a0a9dc7-37ea-4f09-b79c-756c5b880b41")
-	)
-	(wire
-		(pts
-			(xy 185.42 124.46) (xy 185.42 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce12c38-5bc7-49df-9d64-ef9a4a8782d9")
 	)
 	(wire
 		(pts
@@ -5686,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 124.46) (xy 208.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bd0c77-5276-4f5f-a29e-03b91f6d3306")
+	)
+	(wire
+		(pts
 			(xy 63.5 111.76) (xy 67.31 111.76)
 		)
 		(stroke
@@ -5786,16 +5885,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 49.53) (xy 179.07 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1ea22f-6b77-4233-aaaf-1896fe68bf40")
-	)
-	(wire
-		(pts
 			(xy 236.22 33.02) (xy 236.22 41.91)
 		)
 		(stroke
@@ -5873,6 +5962,16 @@
 			(type default)
 		)
 		(uuid "60b805e5-0bb6-453d-b8a1-506d9ee680ef")
+	)
+	(wire
+		(pts
+			(xy 204.47 44.45) (xy 156.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6255c7d3-2859-4cfd-807a-417a5ce36999")
 	)
 	(wire
 		(pts
@@ -6013,16 +6112,6 @@
 			(type default)
 		)
 		(uuid "72ca8644-b89e-407b-a294-b73b10686940")
-	)
-	(wire
-		(pts
-			(xy 175.26 54.61) (xy 175.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7345f5d7-51ea-4131-b3f9-62d492e4adea")
 	)
 	(wire
 		(pts
@@ -6366,6 +6455,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 49.53) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b37faf-5a97-4c4d-93b7-231c4ab1bf33")
+	)
+	(wire
+		(pts
 			(xy 50.8 101.6) (xy 67.31 101.6)
 		)
 		(stroke
@@ -6476,16 +6575,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 54.61) (xy 175.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8e5aa73-4eb2-43b6-8417-75fbab73b8ba")
-	)
-	(wire
-		(pts
 			(xy 63.5 172.72) (xy 67.31 172.72)
 		)
 		(stroke
@@ -6536,13 +6625,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 204.47 54.61)
+			(xy 204.47 44.45) (xy 204.47 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af0d1287-2ca8-4e48-ad75-798eb682f2bd")
+	)
+	(wire
+		(pts
+			(xy 179.07 49.53) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08a7d41-d099-4dbf-a9b2-52e83ce29d35")
 	)
 	(wire
 		(pts
@@ -6593,6 +6692,16 @@
 			(type default)
 		)
 		(uuid "b7005695-4a74-4c51-83f6-afe0d6593993")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f02192-f376-49aa-acdc-fa9a953e467f")
 	)
 	(wire
 		(pts
@@ -6743,6 +6852,16 @@
 			(type default)
 		)
 		(uuid "c9bcacae-c7b8-41fc-befa-d3cffc7a3386")
+	)
+	(wire
+		(pts
+			(xy 179.07 90.17) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8d68ce-3ccc-4785-bd31-25ba0bd1e265")
 	)
 	(wire
 		(pts
@@ -7046,16 +7165,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 44.45) (xy 156.21 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb9aea9f-37df-4585-bfea-7629f4ced88e")
-	)
-	(wire
-		(pts
 			(xy 63.5 171.45) (xy 63.5 172.72)
 		)
 		(stroke
@@ -7136,6 +7245,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.975 71.12) (xy 59.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b2ab48-2263-4a9e-9149-0f22dc2c75c6")
+	)
+	(wire
+		(pts
+			(xy 53.975 69.85) (xy 53.975 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f532966a-6204-40f0-8bdb-ae7d2493512f")
+	)
+	(wire
+		(pts
 			(xy 208.28 133.35) (xy 208.28 134.62)
 		)
 		(stroke
@@ -7146,13 +7275,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 156.21 90.17)
+			(xy 59.69 60.325) (xy 59.69 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f959b7da-09bb-4883-beb6-22d7b9268108")
+		(uuid "f917a70b-6990-47aa-b478-c146b42914d7")
 	)
 	(wire
 		(pts
@@ -7565,7 +7694,7 @@
 		(uuid "c863e53c-59a1-442f-8f00-550733a6832c")
 	)
 	(label "MDC"
-		(at 132.08 157.48 180)
+		(at 132.08 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7605,7 +7734,7 @@
 		(uuid "dc8bfdfd-1752-441d-80fa-9a3a56fc18ec")
 	)
 	(label "MDIO"
-		(at 132.08 154.94 180)
+		(at 132.08 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8754,6 +8883,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 163.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc20370-f207-49cf-b56d-8c2e0af01255")
+		(property "Reference" "H3"
+			(at 227.33 161.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 164.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 224.79 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 240.03 81.28 0)
 		(unit 1)
@@ -9469,6 +9662,70 @@
 			(project "Heatpump_controller"
 				(path "/9b59c385-9851-4556-9140-8688de5010de"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "572c4c7c-79b4-4dd9-b1f3-af18247564d2")
+		(property "Reference" "H2"
+			(at 227.33 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10686,6 +10943,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 53.975 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8efc3c7d-7b1c-483a-bb9a-ee1b32a785c1")
+		(property "Reference" "#PWR036"
+			(at 53.975 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.975 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 53.975 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b713d39-b7c0-4d35-a21f-ecb0090b0221")
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 60.96 0)
 		(unit 1)
@@ -10977,6 +11300,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 59.69 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a17bcb5e-0bd6-4b0b-85c9-38e1da80f75a")
+		(property "Reference" "C25"
+			(at 63.5 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 63.5 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.7248 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe1aaf4-484f-4be6-8fe5-54f975d3b068")
+		)
+		(pin "2"
+			(uuid "5eda0929-8bd4-424a-a8b5-5506d0a0d09c")
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 99.06 0)
 		(unit 1)
@@ -11037,6 +11430,206 @@
 			(project "Heatpump_controller"
 				(path "/9b59c385-9851-4556-9140-8688de5010de"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.975 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3cf3b50-baf0-4fe2-83a1-6b45a1393d7c")
+		(property "Reference" "C26"
+			(at 50.165 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 50.165 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.9402 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.975 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.975 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1871380b-b1de-4748-a87e-d451ee588deb")
+		)
+		(pin "2"
+			(uuid "df184ba9-fcf9-43d4-8798-561a371eabda")
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 154.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a69ee717-7816-4c31-bab8-4b6be52b9016")
+		(property "Reference" "H1"
+			(at 227.33 153.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 224.79 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7951324-db1e-4138-a523-c1730c610274")
+		(property "Reference" "#PWR037"
+			(at 59.69 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.69 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9e1153-2264-4a31-a3ac-62e75701c156")
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11491,6 +12084,72 @@
 			(project "Heatpump_controller"
 				(path "/9b59c385-9851-4556-9140-8688de5010de"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.975 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8205b73-b5e7-42b8-b7fd-d0090e3992b3")
+		(property "Reference" "#PWR038"
+			(at 53.975 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.975 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.975 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11e0912b-179c-48c2-9a08-962899168ec7")
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12111,6 +12770,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eed75d1e-44cc-4ef1-9fa8-c546184f6bfa")
+		(property "Reference" "H4"
+			(at 227.33 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB:CH340X")
 		(at 66.04 39.37 0)
 		(unit 1)
@@ -12629,6 +13352,48 @@
 			(project "Heatpump_controller"
 				(path "/9b59c385-9851-4556-9140-8688de5010de"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 169.545)
+		(size 23.495 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d637c03-83b7-4f68-89ec-5013a024ad86")
+		(property "Sheetname" "Power"
+			(at 129.54 168.8334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 129.54 186.6396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Heatpump_controller"
+				(path "/9b59c385-9851-4556-9140-8688de5010de"
+					(page "3")
 				)
 			)
 		)
